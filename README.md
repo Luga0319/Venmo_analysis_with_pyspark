@@ -29,9 +29,9 @@ The code is compiled on the Google Cloud Platform Virtual Machine
 ===============
 
 **Social Network Analysis**
-+++1. Analyze the user's social network based on the transaction records with other users ---- find out his/her friends and friends' friends
-···2. Calculate clustering coefficents based on their social network [reference](https://en.wikipedia.org/wiki/Clustering_coefficient "wikipage")
-···3. Calculate the page rank of each user
+1. Analyze the user's social network based on the transaction records with other users ---- find out his/her friends and friends' friends
+2. Calculate clustering coefficents based on their social network [reference](https://en.wikipedia.org/wiki/Clustering_coefficient "wikipage")
+3. Calculate the page rank of each user
 ======
 **Predictive Analysis with MLlib**
 ···1. Create dependent variableY,i.e. the total number of transactions at lifetimepoint 12
