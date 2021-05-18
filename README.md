@@ -8,17 +8,17 @@ which would help us predict the level of user's activity and strength of relatio
 Predicting the number of transactions in next year based on the text & emojis within transactions and the social network profiles
 
 ### 2. Data Description
-#### a. A snappy parquet dataset including millions of public transaction records. (Din't publish due to pricate issue) 
+#### a. A snappy parquet dataset including millions of public transaction records. (Didn't publish due to pricate issue) 
 #### b. A word classification dictionary 
 #### c. A emoji classification dictionary 
 
 ### 3. Methodology
-···The code is compiled on the Google Cloud Platform Virtual Machine 
+The code is compiled on the Google Cloud Platform Virtual Machine 
 ==============
 **Text & Emoji Analysis**
 
-···1. Tokenized each transaction comment (text & emoji) and label each transaction record with a category extracted from dictionary 
-···2. Built a dynamic transaction profile, displaying the percentage of each category take in the user's total transaction history. i.e. 
++++1. Tokenized each transaction comment (text & emoji) and label each transaction record with a category extracted from dictionary 
++++2. Built a dynamic transaction profile, displaying the percentage of each category take in the user's total transaction history. i.e. 
 
 |  User_id      |  month  |  People   |  Food   |    Activity    |  Event  |
 | ------------- |:-------:|:---------:| -------:| :-------------:| -------:|
@@ -29,7 +29,7 @@ Predicting the number of transactions in next year based on the text & emojis wi
 ===============
 
 **Social Network Analysis**
-···1. Analyze the user's social network based on the transaction records with other users ---- find out his/her friends and friends' friends
++++1. Analyze the user's social network based on the transaction records with other users ---- find out his/her friends and friends' friends
 ···2. Calculate clustering coefficents based on their social network [reference](https://en.wikipedia.org/wiki/Clustering_coefficient "wikipage")
 ···3. Calculate the page rank of each user
 ======
