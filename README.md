@@ -43,5 +43,5 @@ The code is compiled on the Google Cloud Platform Virtual Machine
 2. Create the recency and frequency variables based on CRM theory
 3. Used **Linear Regression Model** and **Random Forest** to predict 
 4. Plot the MSE for each lifetime point
-
+![](https://github.com/Luga0319/Venmo_analysis_with_pyspark/blob/main/MSE.png "MSE plot")
 
