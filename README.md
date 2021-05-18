@@ -14,7 +14,9 @@ Predicting the number of transactions in next year based on the text & emojis wi
 
 ### 3. Methodology
 The code is compiled on the Google Cloud Platform Virtual Machine 
-================
+
+---------
+
 **Text & Emoji Analysis**
 
 1. Tokenized each transaction comment (text & emoji) and label each transaction record with a category extracted from dictionary 
@@ -26,14 +28,14 @@ The code is compiled on the Google Cloud Platform Virtual Machine
 | 16            |     1   | 0.35      | 0.5     |     0.10       |  0.05   |
 | 26            |     2   |  0.15     | 0.25    |     0.20       |  0.40   |
 
-=================
+---------
 
 **Social Network Analysis**
 1. Analyze the user's social network based on the transaction records with other users ---- find out his/her friends and friends' friends
 2. Calculate clustering coefficents based on their social network [reference](https://en.wikipedia.org/wiki/Clustering_coefficient "wikipage")
 3. Calculate the page rank of each user
 
-=================
+---------
 
 **Predictive Analysis with MLlib**
 ···1. Create dependent variableY,i.e. the total number of transactions at lifetimepoint 12
