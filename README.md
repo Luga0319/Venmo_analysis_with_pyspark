@@ -38,6 +38,7 @@ The code is compiled on the Google Cloud Platform Virtual Machine
 ---------
 
 **Predictive Analysis with MLlib**
+
 ···1. Create dependent variableY,i.e. the total number of transactions at lifetimepoint 12
 ···2. Create the recency and frequency variables based on CRM theory
 ···3. Used **Linear Regression Model** and **Random Forest** to predict 
