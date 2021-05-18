@@ -14,7 +14,7 @@ Predicting the number of transactions in next year based on the text & emojis wi
 
 ### 3. Methodology
 The code is compiled on the Google Cloud Platform Virtual Machine 
-==============
+================
 **Text & Emoji Analysis**
 
 1. Tokenized each transaction comment (text & emoji) and label each transaction record with a category extracted from dictionary 
