@@ -17,8 +17,8 @@ The code is compiled on the Google Cloud Platform Virtual Machine
 ==============
 **Text & Emoji Analysis**
 
-+++1. Tokenized each transaction comment (text & emoji) and label each transaction record with a category extracted from dictionary 
-+++2. Built a dynamic transaction profile, displaying the percentage of each category take in the user's total transaction history. i.e. 
+1. Tokenized each transaction comment (text & emoji) and label each transaction record with a category extracted from dictionary 
+2. Built a dynamic transaction profile, displaying the percentage of each category take in the user's total transaction history. i.e. 
 
 |  User_id      |  month  |  People   |  Food   |    Activity    |  Event  |
 | ------------- |:-------:|:---------:| -------:| :-------------:| -------:|
