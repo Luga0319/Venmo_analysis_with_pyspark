@@ -16,6 +16,7 @@ Predicting the number of transactions in next year based on the text & emojis wi
 ···The code is compiled on the Google Cloud Platform Virtual Machine 
 ==============
 **Text & Emoji Analysis**
+
 ···1. Tokenized each transaction comment (text & emoji) and label each transaction record with a category extracted from dictionary 
 ···2. Built a dynamic transaction profile, displaying the percentage of each category take in the user's total transaction history. i.e. 
 
@@ -24,7 +25,9 @@ Predicting the number of transactions in next year based on the text & emojis wi
 | 1             |     1   | null      | 0.26    |     0.32       |  0.42   |
 | 16            |     1   | 0.35      | 0.5     |     0.10       |  0.05   |
 | 26            |     2   |  0.15     | 0.25    |     0.20       |  0.40   |
+
 ===============
+
 **Social Network Analysis**
 ···1. Analyze the user's social network based on the transaction records with other users ---- find out his/her friends and friends' friends
 ···2. Calculate clustering coefficents based on their social network [reference](https://en.wikipedia.org/wiki/Clustering_coefficient "wikipage")
